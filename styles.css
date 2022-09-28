@@ -1,0 +1,89 @@
+body{
+    background: linear-gradient(#AEBDCA, #256D85);
+}
+
+.mainbox{
+    width: 330px;
+    height: 509px;
+    margin-top: 10%;
+    padding-right: 15px;
+    background:linear-gradient(to bottom right,white, rgba(200, 200, 250, 0.3));
+    border-radius: 27px;
+    box-shadow: 0px 0px 60px 35px #256D85;
+}
+
+
+
+/* screen css */
+.screen{
+    border: none;
+    width: 319px;
+    height: 60px;
+    margin-left: 18px;
+    position: relative;
+    top: 90px;
+    border-radius: 20px;
+    text-align: right;
+    background: linear-gradient(white,transparent);
+    font-family: 'Alfa Slab One', cursive;
+}
+
+
+
+
+
+/* buttons css */
+.buttons{
+ height: 300px;
+ width: 337px;
+ position: absolute;
+ margin-top: 119px;
+}
+.btn{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: none;
+    margin-left: 26px;
+   background: linear-gradient(350deg,#F6FBF4,transparent);
+    color: black;
+    font-size: large;
+    margin-top: 6px;
+    font-weight: bold;
+  
+}
+.equal{
+    width: 207px;
+    border-radius: 20px;
+    /* margin-left: -71px; */
+    margin-top: 11px;
+    margin-right: 85px;
+}
+.C{
+    position: relative;
+    bottom: 62px;
+    left: 169px;
+}
+.clear{
+    position: relative;
+    bottom: 498px;
+    left: 94px;
+    background: linear-gradient(45deg, white, transparent);
+}
+
+
+/* operators css */
+.operators{
+    display: flex;
+    flex-direction:column;
+    width: 80px;
+    margin-left: 40px;
+    margin-left: 333px;
+    position: absolute;
+    margin-top: 112px;
+}
+
+
+.pressed{
+    background: blue;
+}
